@@ -1,0 +1,17 @@
+{
+  "name": "KSR Transport",
+  "short_name": "KSR Transport",
+  "description": "Heavy logistics and ODC transport in Hyderabad and India. Steel, solar panels, industrial cargo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0B1F3A",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ]
+}
