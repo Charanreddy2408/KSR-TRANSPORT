@@ -36,7 +36,7 @@ export function Hero() {
   return (
     <section className="relative min-h-[80vh] sm:min-h-[85vh] lg:min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#0B1F3A]">
       {/* Background: rotating images every 3s */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-r from-[#0B1F3A]/92 via-[#0B1F3A]/80 to-[#0B1F3A]/70 z-10" />
         {!imgError ? (
           <>
@@ -45,8 +45,8 @@ export function Hero() {
                 key={src}
                 src={src}
                 alt={`KSR Transport fleet ${index + 1}`}
-                className="absolute inset-0 w-full h-full object-cover object-center opacity-60 transition-opacity duration-700 ease-in-out"
-                style={{ opacity: index === currentIndex ? 0.6 : 0, zIndex: index === currentIndex ? 1 : 0 }}
+                className="absolute inset-0 w-full h-full min-w-full min-h-full object-cover object-center opacity-60 transition-opacity duration-700 ease-in-out"
+                style={{ opacity: index === currentIndex ? 0.6 : 0, zIndex: index === currentIndex ? 1 : 0, objectPosition: "center center" }}
                 onError={() => setImgError(true)}
               />
             ))}
@@ -67,12 +67,16 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-2 mb-4 sm:mb-6">
               <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F97316]/10 text-[#F97316] border border-[#F97316]/20 backdrop-blur-sm">
                 <CheckCircle2 className="w-4 h-4 shrink-0" />
-                <span className="text-xs sm:text-sm font-semibold tracking-wide uppercase">IBA Certified Transport Partner</span>
+                <span className="text-xs sm:text-sm font-semibold tracking-wide uppercase">IBA Certified</span>
               </span>
               <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-sm">
                 <span className="text-xs sm:text-sm font-semibold tracking-wide uppercase">All India Permit</span>
               </span>
             </div>
+
+            <p className="text-sm sm:text-base md:text-lg text-white/90 font-medium mb-2 sm:mb-3 tracking-wide">
+              Welcome to KSR Transport
+            </p>
 
             <h1 className="text-2xl min-[480px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight tracking-tight break-words">
               17 Years of Trusted <br className="hidden md:block" />
@@ -106,7 +110,7 @@ export function Hero() {
               {[
                 { label: "Years Experience", value: "17+" },
                 { label: "Owned Vehicles", value: "40+" },
-                { label: "Trailer Capacity", value: "32-40MT" },
+                { label: "Gross Weight", value: "45-55MT" },
                 { label: "Branches", value: "5 States" },
               ].map((stat, index) => (
                 <motion.div

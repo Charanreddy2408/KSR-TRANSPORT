@@ -14,7 +14,7 @@ export function About() {
     "Trailer fleet (32MT & 40MT capacity)",
     "Expertise in ODC transportation",
     "Trusted by major corporations",
-    "IBA Certified Partner"
+    "IBA Certified "
   ]
 
   return (

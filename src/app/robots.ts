@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://ksrtransport.in/sitemap.xml',
+        sitemap: 'https://ksrtransport.co.in/sitemap.xml',
     }
 }

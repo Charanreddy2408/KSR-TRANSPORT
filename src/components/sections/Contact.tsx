@@ -10,7 +10,7 @@ const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit"
 const RECIPIENT_EMAIL = "ksrtransport9@gmail.com"
 
 /** Head office coordinates (Hayathnagar, Hyderabad) - opens in Google Maps */
-const GOOGLE_MAPS_URL = "https://www.google.com/maps?q=17.3328,78.6045"
+const GOOGLE_MAPS_URL = "https://www.google.com/maps?q=17.3311,78.5906"
 
 function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle")

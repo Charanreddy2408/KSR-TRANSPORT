@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { WhatsAppFloat } from "@/components/ui/WhatsAppFloat";
 import "./globals.css";
 
-const SITE_URL = "https://ksrtransport.in";
+const SITE_URL = "https://ksrtransport.co.in";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "heavy haulage India",
     "solar panel logistics",
     "metal fabrication transport",
-    "IBA certified transport",
+    "IBA certified ",
   ],
   authors: [{ name: "KSR Transport", url: SITE_URL }],
   creator: "KSR Transport",
@@ -68,7 +68,8 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [{ url: "/icon.jpeg?v=logo", type: "image/jpeg", sizes: "any" }],
+    apple: "/icon.jpeg",
   },
   manifest: "/manifest.json",
   category: "transportation",
@@ -100,8 +101,8 @@ export default function RootLayout({
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 17.3328,
-      longitude: 78.6045,
+      latitude: 17.3311,
+      longitude: 78.5906,
     },
     areaServed: [
       { "@type": "State", name: "Telangana" },
