@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "KSR Transport | Heavy Logistics & ODC Transport",
-    description: "Heavy transport & ODC logistics in Hyderabad. 40+ vehicles, 17+ years. IBA certified.",
+    description: "Heavy transport & ODC logistics in Hyderabad. 40+ vehicles, 30+ years. IBA certified.",
     images: ["/assets/logo.jpeg"],
   },
   robots: {
