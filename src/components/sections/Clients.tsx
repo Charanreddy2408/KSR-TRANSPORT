@@ -50,8 +50,11 @@ const CLIENT_LOGO_PATH: Record<string, string> = {
   "Aurobindo Pharma Ltd": "aurobindo logo.webp",
   "CS Constructions Pvt Ltd": "cs constructions logo.png",
   "BSCPL Infrastructure Ltd": "bscpl-logo.png",
+  "KEC International Ltd": "kec_logo_.png",
   "Shapoorji Pallonji Ltd": "shapoorji logo.svg",
+  "Simplex Infrastructures Ltd": "simplex-logo.png",
   "Shankar Narayana Constructions Pvt Ltd": "shankar narayana logo.webp",
+  "GVPR Engineers Limited": "GVPR-Logo.png",
   "Navayuga Engineering Company Ltd": "navayuga logo.png",
   "Chettinadu Cement Corporation Ltd": "Chettinad-logo.png",
   "Renewsys India Pvt Ltd": "renewsys logo.avif",
@@ -61,8 +64,11 @@ const CLIENT_LOGO_PATH: Record<string, string> = {
   IOCL: "indian-oil-corporation logo.webp",
   Madhucon: "madhucon-logo.webp",
   "My Home": "My-Home-logo.jpg",
+  Aparna: "aparna-logo.svg",
   DRDL: "drdl logo.webp",
+  Medhani: "medhini-logo-120x120.webp",
   Lanco: "Lanco Infratech Logo.webp",
+  "Singareni Collieries": "sigareni logo.webp",
 }
 
 function getLogoPath(name: string): string | null {

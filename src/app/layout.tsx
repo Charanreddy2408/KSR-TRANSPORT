@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "KSR Transport | Heavy Logistics & ODC Transport | Hyderabad | 17+ Years",
+    default: "KSR Transport | Heavy Logistics & ODC Transport | Hyderabad | 30+ Years",
     template: "%s | KSR Transport",
   },
   description: "KSR Transport – Trusted heavy logistics & ODC transport in Hyderabad & India. 40+ owned vehicles, 32–40MT capacity. Steel, ODC, solar panels. IBA certified. Call 93966 24567.",
@@ -90,7 +90,7 @@ export default function RootLayout({
     telephone: "+919396624567",
     email: "ksrtransport9@gmail.com",
     description: "Heavy logistics and ODC transport in Hyderabad and across India. Steel, over dimensional cargo, solar panels. IBA certified. 40+ owned vehicles, 32-40MT capacity.",
-    slogan: "17 Years of Trusted Heavy Transport Solutions",
+    slogan: "30 Years of Trusted Heavy Transport Solutions",
     address: {
       "@type": "PostalAddress",
       streetAddress: "4-12-15/P 19 EP, Plot No.19, KSR Residency, Road No.1, Arunodaya Nagar",

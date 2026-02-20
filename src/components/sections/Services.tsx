@@ -10,24 +10,28 @@ const services = [
     description: "Specialized fleet for safe and efficient transportation of steel coils, plates, and structural components.",
     icon: Factory,
     accent: "from-amber-500 to-orange-600",
+    image: "/assets/steel-coil-transport.webp",
   },
   {
     title: "ODC Cargo",
     description: "Expert handling of Over Dimensional Cargo with specialized trailers and route planning.",
     icon: Truck,
     accent: "from-[#0B1F3A] to-slate-800",
+    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80&fit=crop",
   },
   {
     title: "Solar Panel Logistics",
     description: "Delicate handling and secure transport solutions for solar panels and renewable energy equipment.",
     icon: BatteryCharging,
     accent: "from-emerald-500 to-teal-600",
+    image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=80&fit=crop",
   },
   {
     title: "Metal Fabrication Logistics",
     description: "End-to-end logistics support for heavy metal fabrication and industrial engineering projects.",
     icon: Box,
     accent: "from-[#F97316] to-amber-600",
+    image: "/assets/metal-fabricated.webp",
   },
 ]
 
@@ -70,18 +74,28 @@ export function Services() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative min-w-0"
             >
-              <div className="h-full rounded-xl sm:rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-4 sm:p-6 md:p-8 transition-all duration-300 hover:bg-white/10 hover:border-[#F97316]/40 hover:shadow-lg hover:shadow-[#F97316]/10">
-                <div
-                  className={`inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br ${service.accent} mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}
-                >
-                  <service.icon className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+              <div className="h-full rounded-xl sm:rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 overflow-hidden transition-all duration-300 hover:bg-white/10 hover:border-[#F97316]/40 hover:shadow-lg hover:shadow-[#F97316]/10">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-t-xl sm:rounded-t-2xl bg-slate-800">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={service.image}
+                    alt=""
+                    className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div
+                    className={`absolute bottom-2 right-2 inline-flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br ${service.accent} shadow-lg`}
+                  >
+                    <service.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                  </div>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-[#F97316] transition-colors">
-                  {service.title}
-                </h3>
-                <p className="text-slate-400 leading-relaxed text-sm sm:text-base">
-                  {service.description}
-                </p>
+                <div className="p-4 sm:p-6 md:p-8">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-[#F97316] transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-slate-400 leading-relaxed text-sm sm:text-base">
+                    {service.description}
+                  </p>
+                </div>
               </div>
             </motion.div>
           ))}

@@ -9,7 +9,7 @@ import { CheckCircle } from "lucide-react"
 export function About() {
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const highlights = [
-    "17 years of market excellence",
+    "30 years of market excellence",
     "40+ Owned Heavy Vehicles",
     "Trailer fleet (45MT - 55MT capacity)",
     "Expertise in ODC transportation",
@@ -59,7 +59,7 @@ export function About() {
             Pioneering Heavy Logistics Since 2009
           </h3>
           <p className="text-slate-600 mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
-            KSR Transport has established itself as a premier logistics partner for heavy industrial transportation. With over 17 years of experience, we specialize in handling complex logistics challenges, from ODC cargo to large-scale steel transport.
+            KSR Transport has established itself as a premier logistics partner for heavy industrial transportation. With over 30 years of experience, we specialize in handling complex logistics challenges, from ODC cargo to large-scale steel transport.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">

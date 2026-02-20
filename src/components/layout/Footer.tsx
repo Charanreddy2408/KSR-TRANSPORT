@@ -27,7 +27,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-slate-300 text-sm leading-relaxed mb-4 sm:mb-6 max-w-md">
-              Specialized in heavy logistics, ODC transportation, and industrial movement across India with over 17 years of excellence.
+              Specialized in heavy logistics, ODC transportation, and industrial movement across India with over 30 years of excellence.
             </p>
           </div>
 

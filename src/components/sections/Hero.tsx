@@ -79,7 +79,7 @@ export function Hero() {
             </p>
 
             <h1 className="text-2xl min-[480px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight tracking-tight break-words">
-              17 Years of Trusted <br className="hidden md:block" />
+              30 Years of Trusted <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F97316] to-orange-400">
                 Heavy Transport Solutions
               </span>
@@ -108,7 +108,7 @@ export function Hero() {
               }}
             >
               {[
-                { label: "Years Experience", value: "17+" },
+                { label: "Years Experience", value: "30+" },
                 { label: "Owned Vehicles", value: "40+" },
                 { label: "Gross Weight", value: "45-55MT" },
                 { label: "Branches", value: "5 States" },

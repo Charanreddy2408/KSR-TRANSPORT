@@ -96,7 +96,7 @@ export function CEO() {
               >
                 <Quote className="absolute -top-2 -left-1 w-10 h-10 text-[#F97316]/20" />
                 <blockquote className="text-slate-300 text-base sm:text-lg md:text-xl leading-relaxed pl-6 sm:pl-8 pr-2">
-                  With over 17 years in heavy logistics, we are committed to moving India&apos;s industry safely and on time. KSR Transport stands for reliability, scale, and trust—from steel to solar, we deliver.
+                  With over 30 years in heavy logistics, we are committed to moving India&apos;s industry safely and on time. KSR Transport stands for reliability, scale, and trust—from steel to solar, we deliver.
                 </blockquote>
               </motion.div>
             </div>
