@@ -11,7 +11,7 @@ export function About() {
   const highlights = [
     "17 years of market excellence",
     "40+ Owned Heavy Vehicles",
-    "Trailer fleet (32MT & 40MT capacity)",
+    "Trailer fleet (45MT - 55MT capacity)",
     "Expertise in ODC transportation",
     "Trusted by major corporations",
     "IBA Certified "
@@ -56,7 +56,7 @@ export function About() {
         >
           <h2 className="text-[#F97316] font-bold uppercase tracking-wider mb-2 text-sm sm:text-base">About KSR Transport</h2>
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0B1F3A] mb-4 sm:mb-6">
-            Pioneering Heavy Logistics Since 2007
+            Pioneering Heavy Logistics Since 2009
           </h3>
           <p className="text-slate-600 mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             KSR Transport has established itself as a premier logistics partner for heavy industrial transportation. With over 17 years of experience, we specialize in handling complex logistics challenges, from ODC cargo to large-scale steel transport.
