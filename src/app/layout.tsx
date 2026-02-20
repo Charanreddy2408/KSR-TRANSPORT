@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "KSR Transport",
     title: "KSR Transport | Heavy Logistics & ODC Transport | Hyderabad",
-    description: "Trusted heavy transport in Hyderabad & India. 40+ vehicles, steel, ODC, solar panels. IBA certified. 17+ years.",
+    description: "Trusted heavy transport in Hyderabad & India. 40+ vehicles, steel, ODC, solar panels. IBA certified. 30+ years.",
     images: [
       {
         url: "/assets/logo.jpeg",
@@ -89,7 +89,7 @@ export default function RootLayout({
     url: SITE_URL,
     telephone: "+919396624567",
     email: "ksrtransport9@gmail.com",
-    description: "Heavy logistics and ODC transport in Hyderabad and across India. Steel, over dimensional cargo, solar panels. IBA certified. 40+ owned vehicles, 32-40MT capacity.",
+    description: "Heavy logistics and ODC transport in Hyderabad and across India. Steel, over dimensional cargo, solar panels. IBA certified. 40+ owned vehicles, 45-55MT capacity.",
     slogan: "30 Years of Trusted Heavy Transport Solutions",
     address: {
       "@type": "PostalAddress",
